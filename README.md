@@ -1,74 +1,66 @@
-<div align="center">
+<div align="left">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=130&section=header&text=Esteban%20Granados&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=40" width="100%"/>
+# Esteban Granados Sibaja
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/esteban-javier-granados-sibaja/)
-[![Email](https://img.shields.io/badge/Email-c0392b?style=flat-square&logo=gmail&logoColor=white)](mailto:esteban.j.granados@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/Esteban-JGS)
+**Software Developer** · Backend, Software Quality & Systems Integration  
+Pérez Zeledón, Costa Rica (open to remote)
 
-<sub>[GitHub stats](https://github-readme-stats.vercel.app/api?username=Esteban-JGS&show_icons=true&hide_border=true&bg_color=0f2027&title_color=4fd1c5&icon_color=4fd1c5&text_color=c9d1d9) &nbsp;·&nbsp; [Most used langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Esteban-JGS&layout=compact&hide_border=true&bg_color=0f2027&title_color=4fd1c5&text_color=c9d1d9)</sub>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/esteban-granados-sibaja/)
+[![Email](https://img.shields.io/badge/Email-333333?style=flat-square&logo=gmail&logoColor=white)](mailto:esteban.j.granados@gmail.com)
 
 </div>
+
+---
 
 ### `~/whoami`
 
-Final-year Information Systems Engineering student at UNA, focused on backend, architecture and infrastructure. I read the whole thing before I touch it, and iterate until it's actually right. I've worked on frontend and mobile too, but the logic underneath is where I do my best work.
+Information Systems Engineering graduate-to-be from UNA (coursework completed Nov 2026, degree conferred May 2027). I focus on backend development, software quality, and systems integration. I read the whole thing before I touch it, back changes with tests, and iterate until it actually holds up.
 
-### `~/currently`
+Years of tutoring programming at university also taught me how to break down messy technical problems and explain them clearly.
 
-- Professional Intern at **Argana**, working on the core architecture of an enterprise ERP:
-  - A kernel that acts as the single source of truth, with modules decoupled through an event bus.
-  - A dedicated money type that stores amounts in cents (no floats).
-  - Module scaffolding and internal automation, so new modules reuse kernel logic instead of reinventing it.
-  - CI pipelines that run only the checks a change needs (docs-only changes skip code tests).
-  - Research on accounting standards and architecture options, plus a full reorganization of the project docs.
-- Coursework ends in Nov 2026, degree conferred in May 2027. Open to new opportunities from Nov 2026.
+### `~/recent`
+
+Just wrapped up my R&D internship at **Argana** (Jul – Nov 2026), working on a modular enterprise ERP (TypeScript, NestJS, Drizzle, PostgreSQL, Redis, MongoDB):
+
+- Audited the ERP core (kernel + Outbox event bus) twice: found 15 of 21 components drifting from their docs and fixed critical session, permission, and duplicate-payment bugs.
+- Repaired a CI pipeline that was letting broken changes pass, turned architecture rules into automated checks (down to 0 findings), and made E2E tests required before merging.
+- Built bulk billing, collections, and cashier features using AI-assisted workflows (Claude Code) under TDD, based on legal and accounting specs.
+- Coordinated the modules team's final month: 11 deliverables in 4 weeks, all reviewed and merged before the deadline.
+
+Currently open to **Backend / Software Developer** roles.
 
 ### `~/stack`
 
-**Languages**<br>
-<a href="https://www.java.com" target="_blank"><img src="https://skillicons.dev/icons?i=java&theme=dark" height="36" alt="Java"/></a>
-<a href="https://isocpp.org" target="_blank"><img src="https://skillicons.dev/icons?i=cpp&theme=dark" height="36" alt="C++"/></a>
-<a href="https://www.python.org" target="_blank"><img src="https://skillicons.dev/icons?i=python&theme=dark" height="36" alt="Python"/></a>
-<a href="https://dotnet.microsoft.com/en-us/languages/csharp" target="_blank"><img src="https://skillicons.dev/icons?i=cs&theme=dark" height="36" alt="C#"/></a>
+<p>
+  <img src="https://skillicons.dev/icons?i=java,ts,cs,python,cpp" height="34" alt="Languages" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=spring,nestjs,postgres,redis,mongodb" height="34" alt="Backend and Data" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=docker,githubactions,linux,git" height="34" alt="Infra and Tooling" />
+</p>
 
-**Backend & Data**<br>
-<a href="https://www.postgresql.org" target="_blank"><img src="https://skillicons.dev/icons?i=postgres&theme=dark" height="36" alt="PostgreSQL"/></a>
-<a href="https://www.oracle.com/database/" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/oracle/oracle-original.svg" height="36" alt="Oracle Database"/></a>
-<a href="https://www.mongodb.com" target="_blank"><img src="https://skillicons.dev/icons?i=mongodb&theme=dark" height="36" alt="MongoDB"/></a>
-
-**Infrastructure & Tooling**<br>
-<a href="https://www.docker.com" target="_blank"><img src="https://skillicons.dev/icons?i=docker&theme=dark" height="36" alt="Docker"/></a>
-<a href="https://www.kernel.org" target="_blank"><img src="https://skillicons.dev/icons?i=linux&theme=dark" height="36" alt="Linux"/></a>
-<a href="https://aws.amazon.com" target="_blank"><img src="https://skillicons.dev/icons?i=aws&theme=dark" height="36" alt="AWS"/></a>
-<a href="https://git-scm.com" target="_blank"><img src="https://skillicons.dev/icons?i=git&theme=dark" height="36" alt="Git"/></a>
-
-<sub>Also worked with: TypeScript, JavaScript, React, React Native</sub>
+<sub>
+<strong>Also work with:</strong> Oracle (PL/SQL) · REST & SOAP APIs · JWT · Drizzle · Prisma · Flyway · Vitest · Testcontainers · TDD · Scrum
+</sub>
 
 ### `~/projects`
 
-| Project | Stack | |
+| Project | Stack | What I built |
 |:--|:--|:--|
-| **[Omaha Hi Poker](https://github.com/Esteban-JGS/project-poker-omaha-hi-)** | C++ · SFML | 6-player poker with a full hand-evaluation engine. |
-| **[KAIZEN](https://github.com/Esteban-JGS/KAIZEN_PROJECT)** | C# · Compilers | IDE for a language built from scratch: lexer, parser, AST, semantic analysis, codegen. |
-| **[control-versiones-SO](https://github.com/Esteban-JGS/control-versiones-SO)** | Python · Systems | Local, Git-like VCS on the command line: push/pull, branching, snapshots. |
-| **[ThreadTower](https://github.com/Esteban-JGS/ThreadTower)** | C# · Concurrency | Multithreaded elevator simulator with dynamic threading and emergency routing. |
+| **[UTEMP API](https://github.com/esteban-jgs/utemp-api)** | Java 21 · Spring Boot 3 · PostgreSQL · Docker | Academic REST API (team of 3): JWT + refresh tokens, role/ownership access control, async grading, Flyway migrations, Testcontainers, and GitHub Actions CI. |
+| **[Invictus Kids](https://invictuskids.com)** | NestJS · Prisma · PostgreSQL | Production daycare platform (team of 20): built the backend base for the admin module and adapted the core architecture and schema from DBA/DevOps. |
+| **[KaizenLang](https://github.com/esteban-jgs/kaizen-project)** | C# · .NET 9 | Educational language with a full compiler front end (lexer, parser, semantic analysis), interpreter, and custom WinForms IDE. |
+| **Waste Control** | Odoo · Python · PostgreSQL | Waste collection system for the Municipality of Pérez Zeledón: core logic, pivot/form views, and client liaison. |
 
-### `~/experience`
+### `~/background`
 
 | Role | Where | When |
 |:--|:--|:--|
-| **Professional Intern.** Kernel architecture, event-driven modules, CI and internal tooling on an enterprise ERP | Argana | 2026 - present |
-| **Academic Tutor, CS.** Mentored 115+ students in CS Fundamentals and Programming 2/3 (Java, SOAP services, Oracle) | UNA · Éxito Académico | 2024 - present |
-| **Instructor.** Smartphone Basics and Canva Suite for ~70 older-adult students | UNAPAM, UNA | 2024 - 2025 |
-| **Academic projects, team lead and developer.** Compilers, concurrency, version control, mobile | UNA | 2023 - present |
+| **Software Analyst (Internship), R&D** | Argana · Remote | Jul – Nov 2026 |
+| **Programming Tutor & Lead Mentor** — 7 groups (15–20 students) in C++, Java, Oracle PL/SQL, REST/SOAP; lead mentor for incoming students | UNA · Student Success Unit | 2024 – 2026 |
+| **Computer Instructor** — 4 digital literacy & Canva courses for older adults; co-designed 20+ guides | UNA · UNAPAM | 2024 – 2025 |
 
-### `~/certifications`
+### `~/certs & languages`
 
-Scrum Fundamentals (ScrumStudy) &nbsp;·&nbsp; Linux Essentials (Cisco) &nbsp;·&nbsp; OS Basics (Cisco) &nbsp;·&nbsp; IT English (Intermediate)
-
-<div align="center">
-<sub>San José, Costa Rica</sub>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=70&section=footer" width="100%"/>
-</div>
+- **Certifications:** Scrum Fundamentals Certified (SCRUMstudy) · Linux Essentials & English for IT (Cisco NetAcad)
+- **Languages:** Spanish (native) · English (B1, PELEx 2026)
